@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export PATH=/home/apps/cross-compiler/pulpino/bin:${PATH}
+export PATH=/mnt/d/SISLAB/pulpino/ri5cy_gnu_toolchain/install/bin:${PATH}
 
 OBJDUMP=`which riscv32-unknown-elf-objdump`
 OBJCOPY=`which riscv32-unknown-elf-objcopy`
